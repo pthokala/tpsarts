@@ -1,35 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1f99b3eb-04d1-4afd-b6fa-48e2d027cef7" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpsimages/Alina-Guitar5.jpg" afterPath="$PROJECT_DIR$/tpsimages/Alina-Guitar5.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpsimages/Alina-Levitation.jpg" afterPath="$PROJECT_DIR$/tpsimages/Alina-Levitation.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpsimages/Alina1.jpg" afterPath="$PROJECT_DIR$/tpsimages/Alina1.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpsimages/Alina_Stairs1.jpg" afterPath="$PROJECT_DIR$/tpsimages/Alina_Stairs1.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpsimages/GoldenEagle in Paradise.jpg" afterPath="$PROJECT_DIR$/tpsimages/GoldenEagle in Paradise.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpsimages/Megha1.jpg" afterPath="$PROJECT_DIR$/tpsimages/Megha1.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpsimages/Rakesh_Megha_1.jpg" afterPath="$PROJECT_DIR$/tpsimages/Rakesh_Megha_1.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpsimages/RanaveerWasecaLake3.jpg" afterPath="$PROJECT_DIR$/tpsimages/RanaveerWasecaLake3.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpsimages/Sunrise Nevada.jpg" afterPath="$PROJECT_DIR$/tpsimages/Sunrise Nevada.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpsimages/Swapna_pregnancy1.jpg" afterPath="$PROJECT_DIR$/tpsimages/Swapna_pregnancy1.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpsimages/UPWithGuitar.jpg" afterPath="$PROJECT_DIR$/tpsimages/UPWithGuitar.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpsimages/ViolaBook.jpg" afterPath="$PROJECT_DIR$/tpsimages/ViolaBook.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpsimages/ViolaMirror1.jpg" afterPath="$PROJECT_DIR$/tpsimages/ViolaMirror1.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpsimages/ViolaOrigami.jpg" afterPath="$PROJECT_DIR$/tpsimages/ViolaOrigami.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpsimages/Wyoming_Lusk_Beauty.jpg" afterPath="$PROJECT_DIR$/tpsimages/Wyoming_Lusk_Beauty.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpsimages/bikeRide1.jpg" afterPath="$PROJECT_DIR$/tpsimages/bikeRide1.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpsimages/corn1.jpg" afterPath="$PROJECT_DIR$/tpsimages/corn1.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpsimages/deer1.jpg" afterPath="$PROJECT_DIR$/tpsimages/deer1.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpsimages/horse1.jpg" afterPath="$PROJECT_DIR$/tpsimages/horse1.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpsimages/lastRays1_Crop1.jpg" afterPath="$PROJECT_DIR$/tpsimages/lastRays1_Crop1.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpsimages/lonely girl.jpg" afterPath="$PROJECT_DIR$/tpsimages/lonely girl.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpsimages/mary3.jpg" afterPath="$PROJECT_DIR$/tpsimages/mary3.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpsimages/mary4.jpg" afterPath="$PROJECT_DIR$/tpsimages/mary4.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpsimages/mary7.jpg" afterPath="$PROJECT_DIR$/tpsimages/mary7.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpsimages/peacock1.jpg" afterPath="$PROJECT_DIR$/tpsimages/peacock1.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpsimages/sunSetCarMirror.jpg" afterPath="$PROJECT_DIR$/tpsimages/sunSetCarMirror.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="1f99b3eb-04d1-4afd-b6fa-48e2d027cef7" name="Default" comment="" />
     <ignored path="tpsArts.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -314,12 +286,12 @@
       <workItem from="1467070900150" duration="100000" />
       <workItem from="1467071354200" duration="2000" />
       <workItem from="1467485392276" duration="4979000" />
-      <workItem from="1467664124227" duration="843000" />
+      <workItem from="1467664124227" duration="942000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13859000" />
+    <option name="totallyTimeSpent" value="13958000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="873" extended-state="6" />
