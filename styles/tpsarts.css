@@ -1,0 +1,83 @@
+
+@media (min-width: 768px){
+    .navbar {
+         border-radius: 0px !important;
+    }
+}
+@media (min-width: 1200px){
+    .container {
+        width: 1000px !important;
+    }
+}
+@media (min-width: 992px){
+    .container {
+        width: 970px;
+    }
+}
+@media (min-width: 768px){
+    .container {
+        width: 750px;
+    }
+}
+.tpsarts-logo{
+    height: 30px;
+    position: relative;
+    top: -8px;
+}
+#owl-home .item img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.header-pardhuthokala{
+    margin: 0 auto;
+    width: 220px;
+    MARGIN-bottom: 15px;
+    color: #929292;
+}
+.contact-img{
+    width:100%;
+}
+.tpsarts-topnav{
+    width:100%;
+    position:fixed !important;
+    top:0px;
+    z-index:10;
+}
+.tpsarts-name{
+    margin-top:66px;
+}
+.footer .copyright-info{
+    margin: 0 auto;
+    width: 190px;
+    color: lightgray;
+    margin-top: 20px;
+    margin-bottom:50px;
+}
+.grid-container{
+
+}
+.grid-item{
+    float:left;
+    margin: 10px 10px 10px 0px;
+    cursor:pointer;
+}
+.grid-item img{
+    max-height: 200px;
+    width: auto;
+    cursor: pointer;
+    max-width: 305px;
+}
+@media (min-width: 768px){
+    .modal-dialog {
+        width: 80%;
+        margin: 30px auto;
+    }
+}
+#img-showImage{
+    width:100%;
+}
+.tpsarts-fb-button-like{
+    position: absolute !important;
+    top: 81px;
+}
