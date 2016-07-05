@@ -76,8 +76,16 @@
 }
 #img-showImage{
     width:100%;
+    display:block;
+    margin: 0 auto;
 }
 .tpsarts-fb-button-like{
     position: absolute !important;
     top: 81px;
+}
+body{
+    background-color: #2f2f2f;
+}
+.modal-body{
+    background-color:black;
 }

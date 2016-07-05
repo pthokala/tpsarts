@@ -60,52 +60,52 @@
 <div class="container">
 
     <div class="grid-container">
-        <div class="grid-item" onclick="fnShowImageInModel('tpsimages/Alina-Levitation.jpg');">
+        <div class="grid-item" onclick="fnShowImageInModel('tpsimages/Alina-Levitation.jpg', false);">
             <img src="tpsimages/Alina-Levitation.jpg" />
         </div>
-        <div class="grid-item" onclick="fnShowImageInModel('tpsimages/Alina_Stairs1.jpg');">
+        <div class="grid-item" onclick="fnShowImageInModel('tpsimages/Alina_Stairs1.jpg', false);">
             <img src="tpsimages/Alina_Stairs1.jpg" />
         </div>
-        <div class="grid-item" onclick="fnShowImageInModel('tpsimages/Megha1.jpg');">
+        <div class="grid-item" onclick="fnShowImageInModel('tpsimages/Megha1.jpg', false);">
             <img src="tpsimages/Megha1.jpg" />
         </div>
-        <div class="grid-item" onclick="fnShowImageInModel('tpsimages/lonely%20girl.jpg');">
+        <div class="grid-item" onclick="fnShowImageInModel('tpsimages/lonely%20girl.jpg', true);">
             <img src="tpsimages/lonely%20girl.jpg" />
         </div>
-        <div class="grid-item" onclick="fnShowImageInModel('tpsimages/Alina1.jpg');">
+        <div class="grid-item" onclick="fnShowImageInModel('tpsimages/Alina1.jpg', true);">
             <img src="tpsimages/Alina1.jpg" />
         </div>
-        <div class="grid-item" onclick="fnShowImageInModel('tpsimages/Alina-Guitar5.jpg');">
+        <div class="grid-item" onclick="fnShowImageInModel('tpsimages/Alina-Guitar5.jpg', false);">
             <img src="tpsimages/Alina-Guitar5.jpg" />
         </div>
-        <div class="grid-item" onclick="fnShowImageInModel('tpsimages/mary3.jpg');">
+        <div class="grid-item" onclick="fnShowImageInModel('tpsimages/mary3.jpg', false);">
             <img src="tpsimages/mary3.jpg" />
         </div>
-        <div class="grid-item" onclick="fnShowImageInModel('tpsimages/mary4.jpg');">
+        <div class="grid-item" onclick="fnShowImageInModel('tpsimages/mary4.jpg', true);">
             <img src="tpsimages/mary4.jpg" />
         </div>
-        <div class="grid-item" onclick="fnShowImageInModel('tpsimages/mary7.jpg');">
+        <div class="grid-item" onclick="fnShowImageInModel('tpsimages/mary7.jpg', true);">
             <img src="tpsimages/mary7.jpg" />
         </div>
-        <div class="grid-item" onclick="fnShowImageInModel('tpsimages/RanaveerWasecaLake3.jpg');">
+        <div class="grid-item" onclick="fnShowImageInModel('tpsimages/RanaveerWasecaLake3.jpg', false);">
             <img src="tpsimages/RanaveerWasecaLake3.jpg" />
         </div>
-        <div class="grid-item" onclick="fnShowImageInModel('tpsimages/Rakesh_Megha_1.jpg');">
+        <div class="grid-item" onclick="fnShowImageInModel('tpsimages/Rakesh_Megha_1.jpg', false);">
             <img src="tpsimages/Rakesh_Megha_1.jpg" />
         </div>
-        <div class="grid-item" onclick="fnShowImageInModel('tpsimages/Swapna_pregnancy1.jpg');">
+        <div class="grid-item" onclick="fnShowImageInModel('tpsimages/Swapna_pregnancy1.jpg', true);">
             <img src="tpsimages/Swapna_pregnancy1.jpg" />
         </div>
-        <div class="grid-item" onclick="fnShowImageInModel('tpsimages/UPWithGuitar.jpg');">
+        <div class="grid-item" onclick="fnShowImageInModel('tpsimages/UPWithGuitar.jpg', false);">
             <img src="tpsimages/UPWithGuitar.jpg" />
         </div>
-        <div class="grid-item" onclick="fnShowImageInModel('tpsimages/ViolaBook.jpg');">
+        <div class="grid-item" onclick="fnShowImageInModel('tpsimages/ViolaBook.jpg', false);">
             <img src="tpsimages/ViolaBook.jpg" />
         </div>
-        <div class="grid-item" onclick="fnShowImageInModel('tpsimages/ViolaOrigami.jpg');">
+        <div class="grid-item" onclick="fnShowImageInModel('tpsimages/ViolaOrigami.jpg', false);">
             <img src="tpsimages/ViolaOrigami.jpg" />
         </div>
-        <div class="grid-item" onclick="fnShowImageInModel('tpsimages/ViolaMirror1.jpg');">
+        <div class="grid-item" onclick="fnShowImageInModel('tpsimages/ViolaMirror1.jpg', false);">
             <img src="tpsimages/ViolaMirror1.jpg" />
         </div>
     </div>
@@ -122,15 +122,8 @@
 <div class="modal fade" id="imageModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
     <div class="modal-dialog" role="document">
         <div class="modal-content">
-            <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <h4 class="modal-title" id="myModalLabel">TPS Arts</h4>
-            </div>
             <div class="modal-body">
                 <img id="img-showImage" src="" />
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
             </div>
         </div>
     </div>
