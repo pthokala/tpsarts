@@ -20,9 +20,9 @@
     }
 }
 .tpsarts-logo{
-    height: 30px;
+    height: 40px;
     position: relative;
-    top: -8px;
+    top: -12px;
 }
 #owl-home .item img{
     display: block;
@@ -33,24 +33,24 @@
     margin: 0 auto;
     width: 220px;
     MARGIN-bottom: 15px;
-    color: #929292;
+    color: #404040;
 }
 .contact-img{
     width:100%;
 }
 .tpsarts-topnav{
     width:100%;
-    position:fixed !important;
+    position:relative !important;
     top:0px;
     z-index:10;
 }
 .tpsarts-name{
-    margin-top:66px;
+    margin-top:20px;
 }
 .footer .copyright-info{
     margin: 0 auto;
     width: 190px;
-    color: lightgray;
+    color: gray;
     margin-top: 20px;
     margin-bottom:50px;
 }
@@ -63,7 +63,7 @@
     cursor:pointer;
 }
 .grid-item img{
-    max-height: 200px;
+    max-height: 190px;
     width: auto;
     cursor: pointer;
     max-width: 305px;
@@ -84,8 +84,11 @@
     top: 81px;
 }
 body{
-    background-color: #2f2f2f;
+    /*background-color: #2f2f2f;*/
 }
 .modal-body{
     background-color:black;
+}
+.ps-current ul{
+    padding-left:0px;
 }
