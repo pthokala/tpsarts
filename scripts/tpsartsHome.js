@@ -4,6 +4,13 @@
 
 $(document).ready(function() {
 
-    $('.pgwSlideshow').pgwSlideshow();
+    var options = {
+        touchControls: true,
+        autoSlide: true,
+        intervalDuration: 2000,
+        touchControls: true,
+        transitionEffect: 'sliding'
+    };
+    $('.pgwSlideshow').pgwSlideshow(options);
 
 });
