@@ -7,7 +7,7 @@ $(document).ready(function() {
     var options = {
         touchControls: true,
         autoSlide: true,
-        intervalDuration: 5000,
+        intervalDuration: 6000,
         touchControls: true,
         transitionEffect: 'sliding'
     };
