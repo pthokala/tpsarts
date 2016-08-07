@@ -1,24 +1,5 @@
 
-@media (min-width: 768px){
-    .navbar {
-         border-radius: 0px !important;
-    }
-}
-@media (min-width: 1200px){
-    .container {
-        width: 1000px !important;
-    }
-}
-@media (min-width: 992px){
-    .container {
-        width: 970px;
-    }
-}
-@media (min-width: 768px){
-    .container {
-        width: 750px;
-    }
-}
+
 .tpsarts-logo{
     height: 40px;
     position: relative;
@@ -112,4 +93,52 @@ body{
 }
 .gallary-table td img{
     width:100%;
+}
+.tps-contact-container{
+    position:relative;
+}
+.tps-contact-info{
+    text-align: right;
+    position: absolute;
+    width: 98%;
+    font-size: 2em;
+    top: 90px;
+}
+@media (min-width: 768px){
+    .navbar {
+        border-radius: 0px !important;
+    }
+}
+@media (min-width: 1200px){
+    .container {
+        width: 1000px !important;
+    }
+}
+@media (min-width: 992px){
+    .container {
+        width: 970px;
+    }
+}
+@media (min-width: 768px){
+    .container {
+        width: 750px;
+    }
+}
+@media (max-width: 1024px){
+    .tps-contact-info{
+        text-align: right;
+        position: absolute;
+        width: 98%;
+        font-size: 1.5em;
+        top: 50px;
+    }
+}
+@media (max-width:760px){
+    .tps-contact-info{
+        text-align: right;
+        position: absolute;
+        width: 98%;
+        font-size: 1em;
+        top: 0px;
+    }
 }
