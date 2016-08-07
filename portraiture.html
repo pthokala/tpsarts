@@ -14,6 +14,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
     <script src="scripts/tpsartsGallery.js"></script>
+    <script src="scripts/tpsartsPortraiture.js"></script>
 </head>
 <body>
 <div id="fb-root"></div>
@@ -26,106 +27,172 @@
     fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
 
-<nav class="navbar navbar-default tpsarts-topnav">
-    <div class="container-fluid">
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="index.html">
-                <img src="images/tpsArtsLogo.png" class="tpsarts-logo" />
-            </a>
+<div class="tpsarts-container">
+    <div class="tpsarts-inner-container">
+        <nav class="navbar navbar-default tpsarts-topnav">
+            <div class="container-fluid">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="index.html">
+                        <img src="images/tpsArtsLogo.png" class="tpsarts-logo" />
+                    </a>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li><a href="index.html">Home</a></li>
+                        <li class="active"><a href="portraiture.html">Portraiture</a></li>
+                        <li><a href="nature.html">Nature</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+
+                </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+        </nav>
+        <div class="tpsarts-name">
+            <h3 class="header-pardhuthokala">PARDHU THOKALA</h3>
+
+            <div class="tpsarts-fb-button-like fb-like" data-href="https://www.facebook.com/PardhuThokala/" data-width="100" data-layout="button_count" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div>
         </div>
 
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav">
-                <li><a href="index.html">Home</a></li>
-                <li class="active"><a href="portraiture.html">Portraiture</a></li>
-                <li><a href="nature.html">Nature</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
 
-        </div><!-- /.navbar-collapse -->
-    </div><!-- /.container-fluid -->
-</nav>
-<div class="tpsarts-name">
-    <h3 class="header-pardhuthokala">PARDHU THOKALA</h3>
-    <div class="">
-        <div class="tpsarts-fb-button-like fb-like" data-href="https://www.facebook.com/PardhuThokala/" data-width="100" data-layout="button_count" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div>
+            <div class="grid-container">
+
+                <table class="gallary-table">
+                    <tr>
+                        <td>
+                            <figure onclick="fnShowImageInModel('tpsimages/Madhu_Sphurti10.jpg', false);">
+                                <img src="tpsimages/Madhu_Sphurti10.jpg" alt="Long Branch Beach, NY">
+                            </figure>
+                        </td>
+                        <td>
+                            <figure onclick="fnShowImageInModel('tpsimages/Madhu_Sphurti2.jpg', false);">
+                                <img src="tpsimages/Madhu_Sphurti2.jpg" alt="George Washington Bridget, NY"/>
+                            </figure>
+                        </td>
+                        <td>
+                            <figure onclick="fnShowImageInModel('tpsimages/Alina-Levitation.jpg', false);">
+                                <img src="tpsimages/Alina-Levitation.jpg" alt="Levitation Photography." />
+                            </figure>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <figure onclick="fnShowImageInModel('tpsimages/Madhu_Sphurti13.jpg', false);">
+                                <img src="tpsimages/Madhu_Sphurti13.jpg" alt="Long Branch Beach, NY">
+                            </figure>
+                        </td>
+                        <td>
+                            <figure onclick="fnShowImageInModel('tpsimages/Alina_Stairs1.jpg', false);">
+                                <img src="tpsimages/Alina_Stairs1.jpg" alt="University of Minnesota Library" />
+                            </figure>
+                        </td>
+                        <td>
+                            <figure onclick="fnShowImageInModel('tpsimages/Megha1.jpg', false);">
+                                <img src="tpsimages/Megha1.jpg" />
+                            </figure>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <figure onclick="fnShowImageInModel('tpsimages/Madhu_Sphurti16.jpg', false);">
+                                <img src="tpsimages/Madhu_Sphurti16.jpg" alt="Long Branch Beach, NY">
+                            </figure>
+                        </td>
+                        <td>
+                            <figure onclick="fnShowImageInModel('tpsimages/lonely%20girl.jpg', true);">
+                                <img src="tpsimages/lonely%20girl.jpg" alt="Mankato, MN" />
+                            </figure>
+                        </td>
+                        <td>
+                            <figure onclick="fnShowImageInModel('tpsimages/Alina1.jpg', true);">
+                                <img src="tpsimages/Alina1.jpg" alt="University of Minnesota Library"/>
+                            </figure>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <figure onclick="fnShowImageInModel('tpsimages/Alina-Guitar5.jpg', false);">
+                                <img src="tpsimages/Alina-Guitar5.jpg" alt="Minnehaha falls, MN">
+                            </figure>
+                        </td>
+                        <td>
+                            <figure onclick="fnShowImageInModel('tpsimages/mary3.jpg', false);">
+                                <img src="tpsimages/mary3.jpg" alt="Jack McGowan's farm, Mankato, MN" />
+                            </figure>
+                        </td>
+                        <td>
+                            <figure onclick="fnShowImageInModel('tpsimages/mary4.jpg', true);">
+                                <img src="tpsimages/mary4.jpg" alt="Jack McGowan's farm, Mankato, MN"/>
+                            </figure>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <figure onclick="fnShowImageInModel('tpsimages/mary7.jpg', true);">
+                                <img src="tpsimages/mary7.jpg" alt="Jack McGowan's farm, Mankato, MN">
+                            </figure>
+                        </td>
+                        <td>
+                            <figure onclick="fnShowImageInModel('tpsimages/RanaveerWasecaLake3.jpg', false);">
+                                <img src="tpsimages/RanaveerWasecaLake3.jpg" alt="Waseca, MN" />
+                            </figure>
+                        </td>
+                        <td>
+                            <figure onclick="fnShowImageInModel('tpsimages/Rakesh_Megha_1.jpg', false);">
+                                <img src="tpsimages/Rakesh_Megha_1.jpg" alt="Minnehaha falls, MN"/>
+                            </figure>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <figure onclick="fnShowImageInModel('tpsimages/Swapna_pregnancy1.jpg', true);">
+                                <img src="tpsimages/Swapna_pregnancy1.jpg" alt="Minnehaha falls, MN">
+                            </figure>
+                        </td>
+                        <td>
+                            <figure onclick="fnShowImageInModel('tpsimages/UPWithGuitar.jpg', false, 16);">
+                                <img src="tpsimages/UPWithGuitar.jpg" alt="Mankato, MN" />
+                            </figure>
+                        </td>
+                        <td>
+                            <figure onclick="fnShowImageInModel('tpsimages/ViolaBook.jpg', false, 17);">
+                                <img src="tpsimages/ViolaBook.jpg" alt="Minnehaha falls, MN"/>
+                            </figure>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <figure onclick="fnShowImageInModel('tpsimages/ViolaOrigami.jpg', false, 18);">
+                                <img src="tpsimages/ViolaOrigami.jpg" alt="Minnehaha falls, MN">
+                            </figure>
+                        </td>
+                        <td>
+                            <figure onclick="fnShowImageInModel('tpsimages/hannah9.jpg', false, 19);">
+                                <img src="tpsimages/hannah9.jpg" alt="Mankato, MN"/>
+                            </figure>
+                        </td>
+                        <td>
+                            <figure onclick="fnShowImageInModel('tpsimages/ViolaMirror1.jpg', false, 20);">
+                                <img src="tpsimages/ViolaMirror1.jpg" alt="Minnehaha falls, MN"/>
+                            </figure>
+                        </td>
+                    </tr>
+                </table>
+
+            </div>
+
+
     </div>
 </div>
-<div class="">
 
-    <div class="grid-container">
-        <div class="grid-item" onclick="fnShowImageInModel('tpsimages/Madhu_Sphurti10.jpg', false);">
-            <img src="tpsimages/Madhu_Sphurti10.jpg" />
-        </div>
-        <div class="grid-item" onclick="fnShowImageInModel('tpsimages/Madhu_Sphurti2.jpg', false);">
-            <img src="tpsimages/Madhu_Sphurti2.jpg" />
-        </div>
-        <div class="grid-item" onclick="fnShowImageInModel('tpsimages/Alina-Levitation.jpg', false);">
-            <img src="tpsimages/Alina-Levitation.jpg" />
-        </div>
-        <div class="grid-item" onclick="fnShowImageInModel('tpsimages/Madhu_Sphurti13.jpg', false);">
-            <img src="tpsimages/Madhu_Sphurti13.jpg" />
-        </div>
-        <div class="grid-item" onclick="fnShowImageInModel('tpsimages/Alina_Stairs1.jpg', false);">
-            <img src="tpsimages/Alina_Stairs1.jpg" />
-        </div>
-        <div class="grid-item" onclick="fnShowImageInModel('tpsimages/Megha1.jpg', false);">
-            <img src="tpsimages/Megha1.jpg" />
-        </div>
-        <div class="grid-item" onclick="fnShowImageInModel('tpsimages/Madhu_Sphurti16.jpg', false);">
-            <img src="tpsimages/Madhu_Sphurti16.jpg" />
-        </div>
-        <div class="grid-item" onclick="fnShowImageInModel('tpsimages/lonely%20girl.jpg', true);">
-            <img src="tpsimages/lonely%20girl.jpg" />
-        </div>
-        <div class="grid-item" onclick="fnShowImageInModel('tpsimages/Alina1.jpg', true);">
-            <img src="tpsimages/Alina1.jpg" />
-        </div>
-        <div class="grid-item" onclick="fnShowImageInModel('tpsimages/Alina-Guitar5.jpg', false);">
-            <img src="tpsimages/Alina-Guitar5.jpg" />
-        </div>
-        <div class="grid-item" onclick="fnShowImageInModel('tpsimages/mary3.jpg', false);">
-            <img src="tpsimages/mary3.jpg" />
-        </div>
-        <div class="grid-item" onclick="fnShowImageInModel('tpsimages/mary4.jpg', true);">
-            <img src="tpsimages/mary4.jpg" />
-        </div>
-        <div class="grid-item" onclick="fnShowImageInModel('tpsimages/mary7.jpg', true);">
-            <img src="tpsimages/mary7.jpg" />
-        </div>
-        <div class="grid-item" onclick="fnShowImageInModel('tpsimages/RanaveerWasecaLake3.jpg', false);">
-            <img src="tpsimages/RanaveerWasecaLake3.jpg" />
-        </div>
-        <div class="grid-item" onclick="fnShowImageInModel('tpsimages/Rakesh_Megha_1.jpg', false);">
-            <img src="tpsimages/Rakesh_Megha_1.jpg" />
-        </div>
-        <div class="grid-item" onclick="fnShowImageInModel('tpsimages/Swapna_pregnancy1.jpg', true);">
-            <img src="tpsimages/Swapna_pregnancy1.jpg" />
-        </div>
-        <div class="grid-item" onclick="fnShowImageInModel('tpsimages/UPWithGuitar.jpg', false);">
-            <img src="tpsimages/UPWithGuitar.jpg" />
-        </div>
-        <div class="grid-item" onclick="fnShowImageInModel('tpsimages/ViolaBook.jpg', false);">
-            <img src="tpsimages/ViolaBook.jpg" />
-        </div>
-        <div class="grid-item" onclick="fnShowImageInModel('tpsimages/ViolaOrigami.jpg', false);">
-            <img src="tpsimages/ViolaOrigami.jpg" />
-        </div>
-        <div class="grid-item" onclick="fnShowImageInModel('tpsimages/ViolaMirror1.jpg', false);">
-            <img src="tpsimages/ViolaMirror1.jpg" />
-        </div>
-    </div>
-
-
-</div>
 
 
 <!-- Modal -->

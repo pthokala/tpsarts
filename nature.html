@@ -13,7 +13,7 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-    <script src="scripts/tpsartsGallery.js"></script>
+    <script src="scripts/tpsartsNature.js"></script>
 </head>
 <body>
 
@@ -26,80 +26,116 @@
     fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
 
-<nav class="navbar navbar-default tpsarts-topnav">
-    <div class="container-fluid">
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="index.html">
-                <img src="images/tpsArtsLogo.png" class="tpsarts-logo" />
-            </a>
+<div class="tpsarts-container">
+    <div class="tpsarts-inner-container">
+        <nav class="navbar navbar-default tpsarts-topnav">
+            <div class="container-fluid">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="index.html">
+                        <img src="images/tpsArtsLogo.png" class="tpsarts-logo" />
+                    </a>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="portraiture.html">Portraiture</a></li>
+                        <li class="active"><a href="nature.html">Nature</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+
+                </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+        </nav>
+        <div class="tpsarts-name">
+            <h3 class="header-pardhuthokala">PARDHU THOKALA</h3>
+
+            <div class="tpsarts-fb-button-like fb-like" data-href="https://www.facebook.com/PardhuThokala/" data-width="100" data-layout="button_count" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div>
         </div>
+        <div class="">
 
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="portraiture.html">Portraiture</a></li>
-                <li class="active"><a href="nature.html">Nature</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-
-        </div><!-- /.navbar-collapse -->
-    </div><!-- /.container-fluid -->
-</nav>
-<div class="tpsarts-name">
-    <h3 class="header-pardhuthokala">PARDHU THOKALA</h3>
-    <div class="">
-        <div class="tpsarts-fb-button-like fb-like" data-href="https://www.facebook.com/PardhuThokala/" data-width="100" data-layout="button_count" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div>
+            <div class="grid-container">
+                <table class="gallary-table">
+                    <tr>
+                        <td>
+                            <figure onclick="fnShowImageInModel('tpsimages/peacock1.jpg', false);">
+                                <img src="tpsimages/peacock1.jpg" alt="New Ulm, MN">
+                            </figure>
+                        </td>
+                        <td>
+                            <figure onclick="fnShowImageInModel('tpsimages/Wyoming_Lusk_Beauty.jpg', false);">
+                                <img src="tpsimages/Wyoming_Lusk_Beauty.jpg" alt="Lusk, WY"/>
+                            </figure>
+                        </td>
+                        <td>
+                            <figure onclick="fnShowImageInModel('tpsimages/sunSetCarMirror.jpg', false);">
+                                <img src="tpsimages/sunSetCarMirror.jpg" alt="Mankato, MN" />
+                            </figure>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <figure onclick="fnShowImageInModel('tpsimages/lastRays1_Crop1.jpg', false);">
+                                <img src="tpsimages/lastRays1_Crop1.jpg" alt="Mankato, MN">
+                            </figure>
+                        </td>
+                        <td>
+                            <figure onclick="fnShowImageInModel('tpsimages/Sunrise%20Nevada.jpg', false);">
+                                <img src="tpsimages/Sunrise%20Nevada.jpg" alt="Sunrise in Nevada"/>
+                            </figure>
+                        </td>
+                        <td>
+                            <figure onclick="fnShowImageInModel('tpsimages/horse1.jpg', false);">
+                                <img src="tpsimages/horse1.jpg" alt="Mankato, MN" />
+                            </figure>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <figure onclick="fnShowImageInModel('tpsimages/bikeRide1.jpg', false);">
+                                <img src="tpsimages/bikeRide1.jpg" alt="Mankato, MN">
+                            </figure>
+                        </td>
+                        <td>
+                            <figure onclick="fnShowImageInModel('tpsimages/GoldenEagle%20in%20Paradise.jpg', false);">
+                                <img src="tpsimages/GoldenEagle%20in%20Paradise.jpg" alt="Mankato, MN"/>
+                            </figure>
+                        </td>
+                        <td>
+                            <figure onclick="fnShowImageInModel('tpsimages/deer1.jpg', false);">
+                                <img src="tpsimages/deer1.jpg" alt="Mankato, MN" />
+                            </figure>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <figure onclick="fnShowImageInModel('tpsimages/corn1.jpg', false);">
+                                <img src="tpsimages/corn1.jpg" alt="Mankato, MN">
+                            </figure>
+                        </td>
+                        <td>
+                            <figure onclick="fnShowImageInModel('tpsimages/YflowerBsky.jpg', false);">
+                                <img src="tpsimages/YflowerBsky.jpg" alt="Mankato, MN"/>
+                            </figure>
+                        </td>
+                        <td>
+                            <figure onclick="fnShowImageInModel('tpsimages/white%20flower%20in%20black%20back.jpg', false);">
+                                <img src="tpsimages/white%20flower%20in%20black%20back.jpg" alt="Mankato, MN" />
+                            </figure>
+                        </td>
+                    </tr>
+                </table>
+        </div>
     </div>
 </div>
-<div class="">
-
-    <div class="grid-container">
-        <div class="grid-item" onclick="fnShowImageInModel('tpsimages/peacock1.jpg', false);">
-            <img src="tpsimages/peacock1.jpg" />
-        </div>
-        <div class="grid-item" onclick="fnShowImageInModel('tpsimages/Wyoming_Lusk_Beauty.jpg', false);">
-            <img src="tpsimages/Wyoming_Lusk_Beauty.jpg" />
-        </div>
-        <div class="grid-item" onclick="fnShowImageInModel('tpsimages/sunSetCarMirror.jpg', false);">
-            <img src="tpsimages/sunSetCarMirror.jpg" />
-        </div>
-        <div class="grid-item" onclick="fnShowImageInModel('tpsimages/lastRays1_Crop1.jpg', false);">
-            <img src="tpsimages/lastRays1_Crop1.jpg" />
-        </div>
-        <div class="grid-item" onclick="fnShowImageInModel('tpsimages/Sunrise%20Nevada.jpg', false);">
-            <img src="tpsimages/Sunrise%20Nevada.jpg" />
-        </div>
-        <div class="grid-item" onclick="fnShowImageInModel('tpsimages/horse1.jpg', false);">
-            <img src="tpsimages/horse1.jpg" />
-        </div>
-        <div class="grid-item" onclick="fnShowImageInModel('tpsimages/bikeRide1.jpg', false);">
-            <img src="tpsimages/bikeRide1.jpg" />
-        </div>
-        <div class="grid-item" onclick="fnShowImageInModel('tpsimages/GoldenEagle%20in%20Paradise.jpg', false);">
-            <img src="tpsimages/GoldenEagle%20in%20Paradise.jpg" />
-        </div>
-        <div class="grid-item" onclick="fnShowImageInModel('tpsimages/deer1.jpg', false);">
-            <img src="tpsimages/deer1.jpg" />
-        </div>
-        <div class="grid-item" onclick="fnShowImageInModel('tpsimages/corn1.jpg', false);">
-            <img src="tpsimages/corn1.jpg" />
-        </div>
-        <div class="grid-item" onclick="fnShowImageInModel('tpsimages/YflowerBsky.jpg', false);">
-            <img src="tpsimages/YflowerBsky.jpg" />
-        </div>
-    </div>
-
-
-</div>
-
 
 <!-- Modal -->
 <div class="modal fade" id="imageModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">

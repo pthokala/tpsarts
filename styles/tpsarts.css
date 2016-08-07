@@ -45,7 +45,7 @@
     z-index:10;
 }
 .tpsarts-name{
-    margin-top:20px;
+    margin-top:50px;
 }
 .footer .copyright-info{
     margin: 0 auto;
@@ -80,15 +80,36 @@
     margin: 0 auto;
 }
 .tpsarts-fb-button-like{
-    position: absolute !important;
-    top: 81px;
+    position: relative !important;
+    top: -4px;
 }
 body{
-    /*background-color: #2f2f2f;*/
+    background-color: #dcdcdc;
 }
 .modal-body{
     background-color:black;
 }
 .ps-current ul{
     padding-left:0px;
+}
+.tpsarts-container{
+    width:90%;
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    border: 1px solid lightgray;
+    padding:30px;
+    background-color:white;
+}
+.navbar-default{
+    background-color:white;
+    border:none;
+}
+.gallary-table td{
+    width:33%;
+    height:auto;
+}
+.gallary-table td img{
+    width:100%;
 }

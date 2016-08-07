@@ -8,7 +8,7 @@ function fnShowImageInModel(imgPath, isVertical){
         keyboard: false
     });
     if(isVertical){
-        var imgHeight = '900px';
+        var imgHeight = '700px';
         $( "#img-showImage" ).height(imgHeight);
         $( "#img-showImage" ).width('auto');
     } else {
