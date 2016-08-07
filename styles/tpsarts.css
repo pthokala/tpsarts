@@ -104,6 +104,24 @@ body{
     font-size: 2em;
     top: 90px;
 }
+.table-mainpage-links a{
+    color:white;
+    cursor:pointer;
+}
+.table-mainpage-links td{
+    text-align: center;
+}
+.table-mainpage-links img{
+    width:100%;
+    cursor:pointer;
+}
+.table-mainpage-links{
+    margin-top: 100px;
+    background-color: black;
+}
+.gallary-table img{
+    cursor:pointer;
+}
 @media (min-width: 768px){
     .navbar {
         border-radius: 0px !important;
