@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" ng-app="app">
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1" />
@@ -15,8 +15,23 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>
+    <script src="scripts/angular-route.min.js"></script>
+    <script src="modules/main/app.js"></script>
+    <script src="modules/main/routes.js"></script>
+
+
+
     <script src="scripts/pgwslideshow.min.js"></script>
-    <script src="scripts/tpsartsHome.js"></script>
+
+    <script src="modules/home/homeController.js"></script>
+    <script src="modules/home/homeService.js"></script>
+    <script src="modules/portraiture/portraitureController.js"></script>
+    <script src="modules/portraiture/portraitureService.js"></script>
+    <script src="modules/nature/natureController.js"></script>
+    <script src="modules/nature/natureService.js"></script>
+    <script src="modules/contact/contactController.js"></script>
+
 </head>
 <body class="autoscroll-body">
 
@@ -40,18 +55,18 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.html">
+                <a class="navbar-brand" href="#/">
                     <img src="images/TPSARTSLOGO.png" class="tpsarts-logo" />
                 </a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav">
-                    <li class="active"><a href="index.html">Home</a></li>
-                    <li><a href="portraiture.html">Portraiture</a></li>
-                    <li><a href="nature.html">Nature</a></li>
-                    <li><a href="contact.html">Contact</a></li>
+                <ul id="mm-ul-container" class="nav navbar-nav">
+                    <li id="mm-home" class="active"><a href="#/">Home</a></li>
+                    <li id="mm-portraiture"><a href="#/portraiture">Portraiture</a></li>
+                    <li id="mm-nature"><a href="#/nature">Nature</a></li>
+                    <li id="mm-contact"><a href="#/contact">Contact</a></li>
                 </ul>
 
             </div><!-- /.navbar-collapse -->
@@ -62,41 +77,9 @@
 
         <div class="tpsarts-fb-button-like fb-like" data-href="https://www.facebook.com/PardhuThokala/" data-width="100" data-layout="button_count" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div>
     </div>
+    <ng-view>
 
-    <div>
-        <ul class="pgwSlideshow">
-            <li><img src="tpsimages/Madhu_Sphurti10.jpg" alt="Madhu and Sphurti" data-description="Madhu and Sphurti in Long Branch Beach, NY."></li>
-            <li><img src="tpsimages/peacock1.jpg" alt="Peacock in New Ulm" data-description="Domestic Peacock in New Ulm, MN"></li>
-            <li><img src="tpsimages/Madhu_Sphurti2.jpg" alt="Madhu and Sphurti" data-description="Madhu and Sphurti at George Washington Bridge, NYC."></li>
-            <li><img src="tpsimages/Wyoming_Lusk_Beauty.jpg" alt="Sunrise" data-description="Sunrise in Lusk, Wyoming."></li>
-            <li><img src="tpsimages/Alina-Levitation.jpg" alt="Life is a library" data-description="Every life is a library. a lot to learn from everyone."></li>
-            <li><img src="tpsimages/horse1.jpg" alt="Race" data-description="Life is a race. Lets better do it when its beautiful."></li>
-            <li><img src="tpsimages/Megha1.jpg" alt="Megha" data-description="Megha in Beautiful light."></li>
-            <li><img src="tpsimages/lastRays1_Crop1.jpg" alt="Last rays on earth" data-description="Last rays of Sunset on earth."></li>
-            <li><img src="tpsimages/Madhu_Sphurti13.jpg" alt="Madhu and Sphurti" data-description="Madhu and Sphurti on Beach."></li>
-            <li><img src="tpsimages/Alina_Stairs1.jpg" alt="Alina" data-description="Alina in Stairs."></li>
-        </ul>
-    </div>
-    <div>
-        <table class="table-mainpage-links">
-            <tr>
-                <td><a href="portraiture.html">Portraits</a></td>
-                <td><a href="nature.html">Nature</a></td>
-            </tr>
-            <tr>
-                <td>
-                    <a href="portraiture.html">
-                        <img src="tpsimages/Megha1.jpg" alt="Megha at Minnehaha falls, MN"/>
-                    </a>
-                </td>
-                <td>
-                    <a href="nature.html">
-                        <img src="tpsimages/Wyoming_Lusk_Beauty.jpg" alt="New Ulm, MN">
-                    </a>
-                </td>
-            </tr>
-        </table>
-    </div>
+    </ng-view>
     <div class="footer">
         <h5 class="copyright-info">All content © Pardhu Thokala</h5>
     </div>

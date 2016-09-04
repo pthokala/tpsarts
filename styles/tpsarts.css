@@ -49,6 +49,15 @@
     cursor: pointer;
     max-width: 305px;
 }
+.portrait-container{
+    width: 33.33%;
+    position: relative;
+    float: left;
+    padding: 10px;
+}
+.portait-image{
+    width: 100%;
+}
 @media (min-width: 768px){
     .modal-dialog {
         width: 80%;

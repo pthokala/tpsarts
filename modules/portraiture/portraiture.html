@@ -1,0 +1,14 @@
+<div ng-repeat="portrait in portraitsList" class="portrait-container">
+    <img ng-src="{{portrait.url}}" alt="{{portrait.alt}}" class="portait-image" ng-click="fnShowImageView(portrait);"/>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="imageModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content" ng-keypress="imageKeyPressed($event)" tabindex="0">
+            <div class="modal-body">
+                <img id="img-showImage" src="" />
+            </div>
+        </div>
+    </div>
+</div>
