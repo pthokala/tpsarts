@@ -54,6 +54,7 @@
     position: relative;
     float: left;
     padding: 10px;
+    cursor:pointer;
 }
 .portait-image{
     width: 100%;
